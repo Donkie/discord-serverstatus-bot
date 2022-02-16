@@ -2,6 +2,8 @@
 # Discord Server Status Bot
 A discord bot which displays Source and Minecraft server statuses as its custom status
 
+![Discord Bot Screenshot](https://user-images.githubusercontent.com/2332094/154353131-54e9f295-b45c-4e47-a78d-b99bd445813c.png)
+
 ## Docker setup
 
 Example docker-compose:
@@ -10,7 +12,7 @@ Example docker-compose:
 version: "3.8"
 services:
   mc1:
-    image: image/path
+    image: ghcr.io/donkie/discord-serverstatus-bot:latest
     environment:
       - BOT_TOKEN=OTA2yaddayadda
       - BOT_SERVER_TYPE=minecraft
